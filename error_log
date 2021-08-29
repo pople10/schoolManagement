@@ -1,0 +1,986 @@
+[28-Jan-2021 12:54:14 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[28-Jan-2021 13:01:46 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[28-Jan-2021 13:04:16 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[28-Jan-2021 13:39:16 America/New_York] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(569): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(550): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(461): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/trackmh in /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[28-Jan-2021 13:39:19 America/New_York] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(569): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(550): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(461): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/trackmh in /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[28-Jan-2021 13:59:20 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[28-Jan-2021 14:44:02 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[28-Jan-2021 14:49:18 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[28-Jan-2021 15:02:58 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
+[11-Feb-2021 23:08:16 UTC] PHP Warning:  Uncaught ErrorException: require_once(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php:15
+Stack trace:
+#0 /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php(15): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(PH...', '/home/trackmhr/...', 15, Array)
+#1 /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php(15): require_once()
+#2 [internal function]: App\Http\Controllers\EmailController->__construct()
+#3 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(870): ReflectionClass->newInstanceArgs(Array)
+#4 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#5 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php( in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php on line 15
+[11-Feb-2021 23:08:16 UTC] PHP Fatal error:  App\Http\Controllers\EmailController::__construct(): Failed opening required 'PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php on line 15
+[11-Feb-2021 23:09:09 UTC] PHP Warning:  Uncaught ErrorException: require_once(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php:16
+Stack trace:
+#0 /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php(16): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(PH...', '/home/trackmhr/...', 16, Array)
+#1 /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php(16): require_once()
+#2 [internal function]: App\Http\Controllers\EmailController->__construct()
+#3 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(870): ReflectionClass->newInstanceArgs(Array)
+#4 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#5 /home/trackmhr/ensah.trackiness.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php( in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php on line 16
+[11-Feb-2021 23:09:09 UTC] PHP Fatal error:  App\Http\Controllers\EmailController::__construct(): Failed opening required 'PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/EmailController.php on line 16
+[11-Feb-2021 23:10:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/trackmhr/ensah.trackiness.com/public/PHPMailer/PHPMailerAutoload.php on line 45
+[11-Feb-2021 23:15:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/trackmhr/ensah.trackiness.com/resources/PHPMailer/PHPMailerAutoload.php on line 45
+[11-Feb-2021 23:20:59 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/trackmhr/ensah.trackiness.com/resources/PHPMailer/PHPMailerAutoload.php on line 45
+[11-Feb-2021 18:41:08 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[11-Feb-2021 18:43:13 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[12-Feb-2021 10:50:32 UTC] PHP Fatal error:  Cannot use DB as DB because the name is already in use in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/RoleController.php on line 9
+[14-Feb-2021 15:30:34 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/ModuleController.php on line 16
+[15-Feb-2021 00:33:02 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/PhdController.php on line 114
+[16-Feb-2021 04:55:59 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[16-Feb-2021 04:57:17 America/New_York] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[18-Feb-2021 23:42:37 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/RequestController.php on line 6
+[18-Feb-2021 23:43:51 UTC] PHP Fatal error:  Redefinition of parameter $request in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/RequestController.php on line 74
+[18-Feb-2021 23:50:46 UTC] PHP Fatal error:  Redefinition of parameter $request in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/RequestController.php on line 74
+[18-Feb-2021 23:52:25 UTC] PHP Fatal error:  Redefinition of parameter $request in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/RequestController.php on line 74
+[26-Feb-2021 12:30:45 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/StatisticController.php on line 19
+[01-Mar-2021 08:54:47 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[01-Mar-2021 08:55:00 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[01-Mar-2021 08:55:14 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[01-Mar-2021 08:55:33 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[01-Mar-2021 08:55:47 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[01-Mar-2021 08:56:00 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/trackmhr/ensah.trackiness.com/app/Models/User.php on line 30
+[02-Mar-2021 12:31:55 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/AnnouncementController.php on line 22
+[02-Mar-2021 12:32:07 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/AnnouncementController.php on line 22
+[02-Mar-2021 12:34:34 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/AnnouncementController.php on line 22
+[08-Mar-2021 20:21:48 UTC] PHP Fatal error:  Cannot declare class xmlapi, because the name is already in use in /home/trackmhr/ensah.trackiness.com/app/Http/Controllers/xmlapi.php on line 132
+[08-Mar-2021 20:42:54 UTC] Some error message here
+[08-Mar-2021 20:45:47 UTC] Some error message here
+[08-Mar-2021 20:45:59 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:45:59 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=0&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:45:59 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:46:00 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:46:00 UTC] Some error message here
+[08-Mar-2021 20:46:02 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:46:02 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=0&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:46:02 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:46:02 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:46:02 UTC] Some error message here
+[08-Mar-2021 20:46:06 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:46:06 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=0&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:46:06 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:46:06 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:46:06 UTC] Some error message here
+[08-Mar-2021 20:46:42 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:46:42 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=0&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:46:42 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:46:42 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:46:42 UTC] Some error message here
+[08-Mar-2021 20:47:02 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:47:02 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=0&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:47:02 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:47:02 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:47:02 UTC] Some error message here
+[08-Mar-2021 20:47:14 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:47:14 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=1&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:47:14 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:47:14 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:47:14 UTC] Some error message here
+[08-Mar-2021 20:47:16 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:47:16 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=1&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:47:16 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:47:16 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:47:16 UTC] Some error message here
+[08-Mar-2021 20:50:15 UTC] URL: https://198.54.114.237:2083/xml-api/cpanel
+[08-Mar-2021 20:50:15 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=1&cpanel_xmlapi_user=trackmhr&cpanel_xmlapi_module=Email&cpanel_xmlapi_func=addpop&cpanel_xmlapi_apiversion=2
+[08-Mar-2021 20:50:15 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:50:16 UTC] RESPONSE:
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate" />
+    <meta name="apple-itunes-app" content="app-id=1188352635" />
+    <title>Error</title>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC+8MW+3z+9/l6l2383xH+iSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1+w/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2+1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou+f6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m+RncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL+mZE18e36IWiHLkFocqzW9QXcNz1+wUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD+/p6dJDknzX+05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX+DPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC" type="image/x-icon" />
+
+    <!-- EXTERNAL CSS -->
+    <link href="/cPanel_magic_revision_1386192030/unprotected/nc-cpanel/fonts/open_sans/open_sans.min.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+/*
+  This css is included in the base template in case the css cannot be loaded because of access restrictions
+  If this css is updated, please update securitypolicy_header.html.tmpl as well
+*/
+.copyright {
+  padding-top: 70px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTlwdCIgaGVpZ2h0PSIzMjAiIHZpZXdCb3g9IjAgMCAzNTkgMjQwIj48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGQ9Ik0xMjMgMGgyMzUuMzd2MjQwSDEyM3ptMCAwIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTg5LjY5IDU5LjEwMmg2Ny44MDJsLTEwLjUgNDAuMmMtMS42MDUgNS42LTQuNjA1IDEwLjEtOSAxMy41LTQuNDAyIDMuNC05LjUwNCA1LjA5Ni0xNS4zIDUuMDk2aC0zMS41Yy03LjIgMC0xMy41NSAyLjEwMi0xOS4wNSA2LjMtNS41MDUgNC4yLTkuMzUzIDkuOTA0LTExLjU1MiAxNy4xMDMtMS40IDUuNDAzLTEuNTUgMTAuNS0uNDUgMTUuMzAyIDEuMDk4IDQuNzk2IDMuMDQ3IDkuMDUgNS44NTIgMTIuNzUgMi43OTcgMy43MDMgNi40IDYuNjUyIDEwLjc5NyA4Ljg1IDQuMzk3IDIuMiA5LjE5OCAzLjI5OCAxNC40IDMuMjk4aDE5LjJjMy42MDIgMCA2LjU0NyAxLjQ1MyA4Ljg1MiA0LjM1MiAyLjI5NyAyLjkwMiAyLjk0NSA2LjE0OCAxLjk1IDkuNzVsLTEyIDQ0LjM5OGgtMjFjLTE0LjQwMyAwLTI3LjY1My0zLjE0OC0zOS43NS05LjQ1LTEyLjEwMi02LjMtMjIuMTUzLTE0LjY0OC0zMC4xNTMtMjUuMDUtOC0xMC4zOTUtMTMuNDU0LTIyLjI0Ni0xNi4zNS0zNS41NDctMi45LTEzLjMtMi41NS0yNi45NSAxLjA1Mi00MC45NTNsMS4yLTQuNWMyLjU5Ny05LjYwMiA2LjY0OC0xOC40NSAxMi4xNDgtMjYuNTUgNS41LTguMDk4IDEyLTE1IDE5LjUtMjAuNyA3LjUtNS43IDE1Ljg1LTEwLjE0OCAyNS4wNS0xMy4zNTIgOS4yLTMuMTk1IDE4Ljc5Ny00Ljc5NiAyOC44LTQuNzk2IiBmaWxsPSIjZmY2YzJjIi8+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNMTIzLjg5IDI0MEwxODIuOTkgMTguNjAyYzEuNTk4LTUuNTk4IDQuNTk4LTEwLjA5OCA5LTEzLjVDMTk2LjM4OCAxLjcgMjAxLjQ4NCAwIDIwNy4yODggMGg2Mi43YzE0LjQwMyAwIDI3LjY1IDMuMTQ4IDM5Ljc1IDkuNDUgMTIuMTAyIDYuMyAyMi4xNTMgMTQuNjU1IDMwLjE1MyAyNS4wNSA3Ljk5NyAxMC40MDIgMTMuNSAyMi4yNTQgMTYuNSAzNS41NSAzIDEzLjMwNSAyLjU5NCAyNi45NTQtMS4yMDIgNDAuOTVsLTEuMiA0LjVjLTIuNTk3IDkuNjAyLTYuNTk3IDE4LjQ1LTEyIDI2LjU1LTUuMzk4IDguMDk4LTExLjg0NyAxNS4wNTItMTkuMzQ3IDIwLjg0OC03LjUgNS44MDUtMTUuODU1IDEwLjMwNS0yNS4wNSAxMy41LTkuMiAzLjIwNC0xOC44MDUgNC44MDUtMjguODA1IDQuODA1aC01NC4yOTdsMTAuOC00MC41YzEuNi01LjQwMiA0LjYtOS44IDktMTMuMjAzIDQuMzk2LTMuMzk4IDkuNDk3LTUuMTAyIDE1LjMwMi01LjEwMmgxNy4zOThjNy4yIDAgMTMuNjUzLTIuMiAxOS4zNTItNi41OTcgNS42OTUtNC4zOTggOS40NDUtMTAuMDk3IDExLjI1LTE3LjEgMS4zOTQtNC45OTcgMS41NDctOS45LjQ0NS0xNC43LTEuMS00LjgtMy4wNS05LjA0Ny01Ljg0OC0xMi43NS0yLjgtMy42OTUtNi40MDItNi42OTUtMTAuNzk2LTktNC40MDYtMi4yOTctOS4yMDYtMy40NS0xNC40MDItMy40NUgyMzMuMzlsLTQzLjggMTYyLjkwM2MtMS42MDYgNS40LTQuNjA2IDkuNzk3LTkgMTMuMTk1LTQuNDAzIDMuNDA3LTkuNDA2IDUuMTAyLTE1IDUuMTAyaC00MS43IiBmaWxsPSIjZmY2YzJjIi8+PC9nPjwvc3ZnPgo=) no-repeat scroll transparent;
+  background-size: 25px auto;
+  background-position: center 35px;
+}
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        img {
+            behavior: url(/cPanel_magic_revision_1331649207/unprotected/cp_pngbehavior_login.htc);
+        }
+    </style>
+    <![endif]-->
+
+    <script>
+    window.DOM = { get: function(id) { return document.getElementById(id) } };
+    </script>
+</head>
+<body class="">
+
+
+
+    <p class="logo"><img class="main-logo" src="/cPanel_magic_revision_1593501200/unprotected/nc-cpanel/images/cpanel-logo.svg" alt="logo"></p>
+
+
+
+<div class="error_notice">
+    <div id="error-wrapper">
+        <div id="error_msg_contents">
+            <h2>HTTP error 404</h2>
+    <p>The requested page was not found.</p>
+    <h2>Possible reasons why you are seeing this page:</h2>
+    <ul>
+        <li>A bookmarked URL may have changed since you last visited.</li>
+        <li>The URL was entered incorrectly.</li>
+        <li>The URL was entered with inaccurate capitalization (URLs are <a href="http://wikipedia.org/wiki/Case_sensitivity">case sensitive</a>).</li>
+    </ul>
+    <p>Please re-check the URL you are trying to reach. (<a href="javascript:history.back()">Go Back</a>)</p>
+
+        </div>
+    </div>
+</div>
+    <div class="copyright">Copyright© 2021 cPanel, Inc.</div>
+
+</body>
+
+</html>
+
+[08-Mar-2021 20:50:16 UTC] Some error message here
+[08-Mar-2021 20:51:56 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 20:51:56 UTC] DATA: domain=trackiness.com&email=john&password=johnspassword&quota=1&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 20:51:56 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:51:57 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","func":"addpop","data":[{"reason":"","result":1}],"event":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 20:52:22 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 20:52:22 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=1&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 20:52:22 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:52:23 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"func":"addpop","event":{"result":1},"data":[{"reason":"","result":1}],"module":"Email"}}
+
+[08-Mar-2021 20:56:34 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 20:56:34 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 20:56:34 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:56:34 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"event":{"result":1},"data":[{"reason":"","result":1}],"func":"addpop","module":"Email"}}
+
+[08-Mar-2021 20:56:50 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 20:56:50 UTC] DATA: domain=ensah.trackiness.com&email=john&password=johnspassword&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 20:56:50 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 20:56:50 UTC] RESPONSE:
+ {"cpanelresult":{"error":"The account john@ensah.trackiness.com already exists!","postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"module":"Email","func":"addpop","data":[{"reason":"The account john@ensah.trackiness.com already exists!","result":0}],"event":{"result":1}}}
+
+[08-Mar-2021 22:00:53 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:00:53 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=123456789&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:00:53 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:00:53 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"func":"addpop","event":{"result":1},"module":"Email","postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[08-Mar-2021 22:02:01 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:02:01 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:02:01 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:02:02 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"func":"addpop","event":{"result":1},"data":[{"result":1,"reason":""}],"module":"Email"}}
+
+[08-Mar-2021 22:02:53 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:02:53 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:02:53 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:02:53 UTC] RESPONSE:
+ {"cpanelresult":{"data":[{"reason":"","result":1}],"func":"addpop","event":{"result":1},"module":"Email","preevent":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:06:22 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:06:22 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:06:22 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:06:23 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","func":"addpop","event":{"result":1},"data":[{"result":0,"reason":"The account amine@ensah.trackiness.com already exists!"}],"preevent":{"result":1},"error":"The account amine@ensah.trackiness.com already exists!","postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:07:50 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:07:50 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:07:50 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:07:51 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"module":"Email","data":[{"reason":"","result":1}],"func":"addpop","event":{"result":1}}}
+
+[08-Mar-2021 22:09:07 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:09:07 UTC] DATA: domain=ensah.trackiness.com&email=amines&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:09:07 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:09:08 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","func":"addpop","data":[{"reason":"","result":1}],"event":{"result":1},"apiversion":2,"postevent":{"result":1}}}
+
+[08-Mar-2021 22:10:33 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:10:33 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=sqdqsdedsds&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:10:33 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:10:33 UTC] RESPONSE:
+ {"cpanelresult":{"func":"addpop","event":{"result":1},"data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"module":"Email","preevent":{"result":1},"postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[08-Mar-2021 22:12:59 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:12:59 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=sqdqsdedsds&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:12:59 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:12:59 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"func":"addpop","data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"event":{"result":1},"module":"Email","postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[08-Mar-2021 22:13:40 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:13:40 UTC] DATA: domain=ensah.trackiness.com&email=toubkalisqdd&password=AmineSDsre95%40&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:13:40 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:13:41 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"module":"Email","event":{"result":1},"data":[{"reason":"","result":1}],"func":"addpop"}}
+
+[08-Mar-2021 22:14:06 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:14:06 UTC] DATA: domain=ensah.trackiness.com&email=toubkalisqdd&password=AmineSDsre95%40&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:14:06 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:14:07 UTC] RESPONSE:
+ {"cpanelresult":{"error":"The account toubkalisqdd@ensah.trackiness.com already exists!","postevent":{"result":1},"apiversion":2,"module":"Email","event":{"result":1},"func":"addpop","data":[{"result":0,"reason":"The account toubkalisqdd@ensah.trackiness.com already exists!"}],"preevent":{"result":1}}}
+
+[08-Mar-2021 22:19:27 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:19:27 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:19:27 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:19:27 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","event":{"result":1},"data":[{"result":1,"reason":""}],"func":"addpop","preevent":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:19:59 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:19:59 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:19:59 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:19:59 UTC] RESPONSE:
+ {"cpanelresult":{"func":"addpop","data":[{"reason":"The account amine@ensah.trackiness.com already exists!","result":0}],"event":{"result":1},"module":"Email","preevent":{"result":1},"apiversion":2,"postevent":{"result":1},"error":"The account amine@ensah.trackiness.com already exists!"}}
+
+[08-Mar-2021 22:21:13 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:21:13 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:21:13 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:21:13 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"func":"addpop","data":[{"result":0,"reason":"The account amine@ensah.trackiness.com already exists!"}],"event":{"result":1},"module":"Email","postevent":{"result":1},"apiversion":2,"error":"The account amine@ensah.trackiness.com already exists!"}}
+
+[08-Mar-2021 22:22:03 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:22:03 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:22:03 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:22:03 UTC] RESPONSE:
+ {"cpanelresult":{"apiversion":2,"postevent":{"result":1},"error":"The account amine@ensah.trackiness.com already exists!","preevent":{"result":1},"data":[{"reason":"The account amine@ensah.trackiness.com already exists!","result":0}],"event":{"result":1},"func":"addpop","module":"Email"}}
+
+[08-Mar-2021 22:26:38 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:26:38 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:26:38 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:26:38 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"error":"The account amine@ensah.trackiness.com already exists!","event":{"result":1},"data":[{"result":0,"reason":"The account amine@ensah.trackiness.com already exists!"}],"func":"addpop","module":"Email","preevent":{"result":1}}}
+
+[08-Mar-2021 22:28:03 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:28:03 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:28:03 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:28:03 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","event":{"result":1},"func":"addpop","data":[{"result":0,"reason":"The account amine@ensah.trackiness.com already exists!"}],"error":"The account amine@ensah.trackiness.com already exists!","apiversion":2,"postevent":{"result":1}}}
+
+[08-Mar-2021 22:32:50 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:32:50 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=fdsd&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:32:50 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:32:50 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"func":"addpop","event":{"result":1},"data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"module":"Email","postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[08-Mar-2021 22:36:09 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:36:09 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=qsdqsdqsd&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:36:09 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:36:09 UTC] RESPONSE:
+ {"cpanelresult":{"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2,"module":"Email","func":"addpop","event":{"result":1},"data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"preevent":{"result":1}}}
+
+[08-Mar-2021 22:37:17 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:37:17 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=dqsds&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:37:17 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:37:17 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","preevent":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"event":{"result":1},"func":"addpop","module":"Email"}}
+
+[08-Mar-2021 22:37:47 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:37:47 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:37:47 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:37:47 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"func":"addpop","event":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:38:34 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:38:34 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:38:34 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:38:34 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"func":"addpop","event":{"result":1},"preevent":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:39:04 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:39:04 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:39:04 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:39:04 UTC] RESPONSE:
+ {"cpanelresult":{"apiversion":2,"postevent":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","event":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"func":"addpop","module":"Email","preevent":{"result":1}}}
+
+[08-Mar-2021 22:39:29 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:39:29 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:39:29 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:39:29 UTC] RESPONSE:
+ {"cpanelresult":{"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","apiversion":2,"postevent":{"result":1},"preevent":{"result":1},"module":"Email","func":"addpop","event":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}]}}
+
+[08-Mar-2021 22:40:24 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:40:24 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:40:24 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:40:24 UTC] RESPONSE:
+ {"cpanelresult":{"apiversion":2,"postevent":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","preevent":{"result":1},"event":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"func":"addpop","module":"Email"}}
+
+[08-Mar-2021 22:41:32 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:41:32 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:41:32 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:41:32 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","func":"addpop","data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"event":{"result":1},"preevent":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:42:32 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:42:32 UTC] DATA: domain=ensah.trackiness.com&email=toubkali&password=dsfsdf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:42:32 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:42:32 UTC] RESPONSE:
+ {"cpanelresult":{"event":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"func":"addpop","module":"Email","preevent":{"result":1},"postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[08-Mar-2021 22:43:37 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:43:37 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=sdqdqsdsq&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:43:37 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:43:38 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","preevent":{"result":1},"data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"func":"addpop","event":{"result":1},"module":"Email"}}
+
+[08-Mar-2021 22:45:11 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:45:11 UTC] DATA: domain=ensah.trackiness.com&email=amine&password=Amineomar123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:45:11 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:45:12 UTC] RESPONSE:
+ {"cpanelresult":{"func":"addpop","event":{"result":1},"data":[{"result":1,"reason":""}],"module":"Email","preevent":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[08-Mar-2021 22:59:50 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[08-Mar-2021 22:59:50 UTC] DATA: domain=ensah.trackiness.com&email=amineqds&password=AmineAmine123&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[08-Mar-2021 22:59:50 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[08-Mar-2021 22:59:50 UTC] RESPONSE:
+ {"cpanelresult":{"postevent":{"result":1},"apiversion":2,"preevent":{"result":1},"data":[{"result":1,"reason":""}],"func":"addpop","event":{"result":1},"module":"Email"}}
+
+[09-Mar-2021 00:30:46 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[09-Mar-2021 00:30:46 UTC] DATA: domain=ensah.trackiness.com&email=amine.ayache&password=FaFaSaSa123%40&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[09-Mar-2021 00:30:46 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[09-Mar-2021 00:30:46 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","func":"addpop","data":[{"result":1,"reason":""}],"event":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[11-Mar-2021 22:07:17 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[11-Mar-2021 22:07:17 UTC] DATA: domain=ensah.trackiness.com&email=amine.prof.45&password=4565f45&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[11-Mar-2021 22:07:17 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[11-Mar-2021 22:07:17 UTC] RESPONSE:
+ {"cpanelresult":{"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2,"module":"Email","data":[{"result":0,"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}],"event":{"result":1},"func":"addpop","preevent":{"result":1}}}
+
+[11-Mar-2021 22:07:32 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[11-Mar-2021 22:07:32 UTC] DATA: domain=ensah.trackiness.com&email=amine.prof.45&password=Amine123456789&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[11-Mar-2021 22:07:32 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6UEFsMW9ERWZHeEZN
+
+
+[11-Mar-2021 22:07:33 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","data":[{"result":1,"reason":""}],"event":{"result":1},"func":"addpop","preevent":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
+[29-Apr-2021 13:58:46 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[29-Apr-2021 13:58:46 UTC] DATA: domain=ensah.trackiness.com&email=qsdqsdds&password=dsfdfds&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[29-Apr-2021 13:58:46 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6RmFGYVNhU2ExMjNA
+
+
+[29-Apr-2021 13:58:46 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"func":"addpop","event":{"result":1},"module":"Email","postevent":{"result":1},"apiversion":2,"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher."}}
+
+[29-Apr-2021 13:58:51 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[29-Apr-2021 13:58:51 UTC] DATA: domain=ensah.trackiness.com&email=qsdqsdds&password=dsfdfdssdffdsf&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[29-Apr-2021 13:58:51 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6RmFGYVNhU2ExMjNA
+
+
+[29-Apr-2021 13:58:51 UTC] RESPONSE:
+ {"cpanelresult":{"module":"Email","event":{"result":1},"func":"addpop","data":[{"reason":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","result":0}],"preevent":{"result":1},"error":"The password that you entered has a strength rating of “1”. You cannot use it because it is too weak and too easy to guess. Please enter a password with a strength rating of “50” or higher.","postevent":{"result":1},"apiversion":2}}
+
+[29-Apr-2021 13:59:05 UTC] URL: https://198.54.114.237:2083/json-api/cpanel
+[29-Apr-2021 13:59:05 UTC] DATA: domain=ensah.trackiness.com&email=qsdqsdds&password=SamirSamir123%40%40%40&quota=0&cpanel_jsonapi_user=trackmhr&cpanel_jsonapi_module=Email&cpanel_jsonapi_func=addpop&cpanel_jsonapi_apiversion=2
+[29-Apr-2021 13:59:05 UTC] Authentication Header: Authorization: Basic dHJhY2ttaHI6RmFGYVNhU2ExMjNA
+
+
+[29-Apr-2021 13:59:06 UTC] RESPONSE:
+ {"cpanelresult":{"preevent":{"result":1},"module":"Email","func":"addpop","data":[{"result":1,"reason":""}],"event":{"result":1},"postevent":{"result":1},"apiversion":2}}
+
