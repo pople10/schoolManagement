@@ -29,6 +29,5 @@
     <li>HTML 5</li>
 </ul>
 <h2>UML : </h2>
-<center>
-![uml](https://user-images.githubusercontent.com/77809116/132948522-b2af673e-f2fd-4144-82f6-372a6ee3e37b.jpg)
-</center>
+<img src="https://user-images.githubusercontent.com/77809116/132948540-dc02ed05-4fbd-4197-a96e-a2b4b70821ad.jpg"/>
+
